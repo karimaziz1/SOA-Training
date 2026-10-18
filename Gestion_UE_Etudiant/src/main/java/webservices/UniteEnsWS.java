@@ -21,7 +21,9 @@ public class UniteEnsWS {
                 .entity(helper.getListeUE())
                 .build();
     }
+    //@secured
     @Path("/add")
+
     @POST
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.TEXT_PLAIN)
